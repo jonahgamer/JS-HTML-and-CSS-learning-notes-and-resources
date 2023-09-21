@@ -1,0 +1,37 @@
+body {
+  font-family: Arial; /*Changes all the texts in <body> of font to arial.*/
+}
+
+.css-subscribe-button {
+  border: none; /*border = Property; none = Value. They are called proprety-value pair.*/
+  background-color: black; /*Changing the background color.*/    
+  color: white; /*Changing the color of the text.*/
+  padding-top: 10px; /*Adding spaces in the top of the text, px = pixel.*/
+  padding-bottom: 10px; /*Adding spaces in the bottom of the text.*/
+  padding-left: 15px; /*Space inside an element is called padding.*/
+  padding-right: 15px;
+  padding: 10px 15px; /*Speed write.*/
+  font-weight: bold; /*Making the text bold.*/
+  border-radius: 50px; /*Making the borders round. the higher the px, the rounder*/
+  cursor: pointer; /*When the mouse pointer is on the button, the mouse pointer turns into a hand.*/
+  margin-bottom: 30px; /*This will add space on the outside of the element at the bottom of 30 px.*/
+}
+
+.is-subscribed {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+.cost-input {
+  font-size: 15px; /*Larges the text inside the text box.*/
+  padding: 10px; /*This will add space inside of the text box in every direction.*/
+}
+
+.calculate-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 12px 15px;
+  cursor: pointer;
+}

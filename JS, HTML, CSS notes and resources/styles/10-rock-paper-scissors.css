@@ -1,0 +1,44 @@
+/*More description of the functions usage in previous project.*/
+
+body {
+  background-color: rgb(25, 25, 25); /*Changed the whole page background color.*/
+  color: white;
+  font-family: Arial;
+}
+
+.title {
+  font-size: 30px; /*Will change the text's size.*/
+  font-weight: bold;
+}
+
+.move-icon {
+  height: 50px; /*Will make the height of the image 50px.*/
+}
+
+.move-button {
+  background-color: transparent; /*Will make the buttons see through.*/
+  border: 3px solid white; /*The three inputs are: width, style, color.*/
+  width: 120px;
+  height: 120px;
+  border-radius: 60px; /*Turns the border to a circle. Set this value to half of the width or height.*/
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}

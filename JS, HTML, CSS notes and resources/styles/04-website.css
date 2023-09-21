@@ -1,0 +1,10 @@
+/*These two things will let togo become more colorful:)*/
+.red-button { 
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.yellow-button {
+  background-color: yellow;
+}
